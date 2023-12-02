@@ -1,0 +1,30 @@
+.star-rating-container {
+  display: flex;
+  /* gap: 5px; */
+  justify-content: space-between;
+}
+.F-container {
+  margin-top: 10px;
+}
+p {
+  font-size: 17px;
+}
+.clear {
+  color: #39a7ff;
+  cursor: pointer;
+}
+.clear:hover {
+  color: #87c4ff;
+}
+@media screen and (max-width: 750px) {
+  .filter-flex {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+  }
+  .hide {
+    display: none;
+  }
+}
